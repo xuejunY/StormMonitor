@@ -7,6 +7,3 @@ The file explains as follows:
   5. The file "demo video" is about how to do reliability monitoring.
 
 attention:we should use interface test tool , for example, post man, to commit log and soundness.ecl to bpCMon.
-About log,there exist some traces first print but delay to write in log file.it will be result some problems,
-such as "TAF" type error that bpCMon engine report,but we did not add "TAF" error in the log.Through response by bpCMon
-engine we can inspect this error.
